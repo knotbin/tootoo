@@ -19,16 +19,17 @@ struct LoginView: View {
                 
                 //Login Form
                 Form {
+                    if (!viewModel.errorMessage.isEmpty) {
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(Color.red)
+                    }
                     TextField("Email Address", text: $viewModel.email)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         .autocorrectionDisabled()
                         .autocapitalization(.none)
                     SecureField("Password", text: $viewModel.password)
-                        .textFieldStyle(RoundedBorderTextFieldStyle())
                     
-                    TLButton(title: "Log In",
-                             bgColor: .blue) {
-                        //action
+                    TLButton(title: "Log In", bgColor: .blue) {
+                        viewModel.login()
                     }
                 }
                 
