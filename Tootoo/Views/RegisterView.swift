@@ -11,28 +11,26 @@ struct RegisterView: View {
     
     @State var email = ""
     @State var password = ""
+    @State var name = ""
     
     var body: some View {
         VStack {
             // Header
-            HeaderView(title: "Register", subtitle: "Welcome to the club.", bg: .yellow, angle: -15)
+            HeaderView(title: "Register", subtitle: "Welcome to the club.", bg: .yellow, angle: -15, os: -140)
             
             Form {
+                TextField("Full Name", text: $name)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 TextField("Email Address", text: $email)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
+                    .autocorrectionDisabled()
+                    .autocapitalization(.none)
                 SecureField("Password", text: $password)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 
-                Button {
-                    
-                } label: {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 10)
-                        
-                        Text("Log in")
-                            .foregroundColor(Color.white)
-                            .bold()
-                    }
+                TLButton(title: "Sign Up",
+                         bgColor: .green) {
+                    //action
                 }
             }
             

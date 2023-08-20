@@ -12,6 +12,7 @@ struct HeaderView: View {
     let subtitle: String
     let bg: Color
     let angle: Double
+    let os: Double
     
     var body: some View {
         ZStack {
@@ -31,12 +32,12 @@ struct HeaderView: View {
         }
         .frame(width: UIScreen.main.bounds.width * 10,
                height: 300)
-        .offset(y: -150)
+        .offset(y: os)
     }
 }
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(title: "Title", subtitle: "Subtitle", bg: Color.blue, angle: 15)
+        HeaderView(title: "Title", subtitle: "Subtitle", bg: Color.blue, angle: 15, os: -100)
     }
 }

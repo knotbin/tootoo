@@ -35,6 +35,7 @@
 		609D6DFF2A8FEBF200DAEEF6 /* TootooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D6DFE2A8FEBF200DAEEF6 /* TootooTests.swift */; };
 		609D6E092A8FEBF200DAEEF6 /* TootooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D6E082A8FEBF200DAEEF6 /* TootooUITests.swift */; };
 		609D6E0B2A8FEBF200DAEEF6 /* TootooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D6E0A2A8FEBF200DAEEF6 /* TootooUITestsLaunchTests.swift */; };
+		60A59A542A9197FF00019DF6 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A59A532A9197FF00019DF6 /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		609D6E042A8FEBF200DAEEF6 /* TootooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TootooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		609D6E082A8FEBF200DAEEF6 /* TootooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TootooUITests.swift; sourceTree = "<group>"; };
 		609D6E0A2A8FEBF200DAEEF6 /* TootooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TootooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60A59A532A9197FF00019DF6 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				607F82812A8FEC6400744911 /* HeaderView.swift */,
 				607F82822A8FEC6400744911 /* ToDoItemView.swift */,
 				607F82832A8FEC6400744911 /* ToDoListView.swift */,
+				60A59A532A9197FF00019DF6 /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -369,6 +372,7 @@
 				607F829F2A8FEC6400744911 /* NewItemViewViewModel.swift in Sources */,
 				607F82922A8FEC6400744911 /* LoginView.swift in Sources */,
 				607F82912A8FEC6400744911 /* ProfileView.swift in Sources */,
+				60A59A542A9197FF00019DF6 /* TLButton.swift in Sources */,
 				607F82972A8FEC6400744911 /* RegisterView.swift in Sources */,
 				607F829E2A8FEC6400744911 /* MainViewViewModel.swift in Sources */,
 				607F82A32A8FECC400744911 /* HeaderViewViewModel.swift in Sources */,
