@@ -24,10 +24,10 @@
 		607F829F2A8FEC6400744911 /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F828E2A8FEC6400744911 /* NewItemViewViewModel.swift */; };
 		607F82A02A8FEC6400744911 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F828F2A8FEC6400744911 /* RegisterViewViewModel.swift */; };
 		607F82A12A8FEC6400744911 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607F82902A8FEC6400744911 /* LoginViewViewModel.swift */; };
-		607F82A52A8FECEA00744911 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 607F82A42A8FECEA00744911 /* GoogleService-Info.plist */; };
 		607F82A92A8FED7900744911 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 607F82A82A8FED7900744911 /* FirebaseAuth */; };
 		607F82AB2A8FED7900744911 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 607F82AA2A8FED7900744911 /* FirebaseFirestore */; };
 		607F82AD2A8FED7900744911 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 607F82AC2A8FED7900744911 /* FirebaseFirestoreSwift */; };
+		60979CA92A93E1C900D66C21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60979CA82A93E1C900D66C21 /* GoogleService-Info.plist */; };
 		609D6DED2A8FEBF100DAEEF6 /* TootooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609D6DEC2A8FEBF100DAEEF6 /* TootooApp.swift */; };
 		609D6DF12A8FEBF100DAEEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609D6DF02A8FEBF100DAEEF6 /* Assets.xcassets */; };
 		609D6DF52A8FEBF100DAEEF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609D6DF42A8FEBF100DAEEF6 /* Preview Assets.xcassets */; };
@@ -73,7 +73,7 @@
 		607F828E2A8FEC6400744911 /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
 		607F828F2A8FEC6400744911 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		607F82902A8FEC6400744911 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
-		607F82A42A8FECEA00744911 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60979CA82A93E1C900D66C21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		609D6DE92A8FEBF100DAEEF6 /* Tootoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tootoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609D6DEC2A8FEBF100DAEEF6 /* TootooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TootooApp.swift; sourceTree = "<group>"; };
 		609D6DF02A8FEBF100DAEEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,9 +158,9 @@
 		607F82A62A8FECF100744911 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				60979CA82A93E1C900D66C21 /* GoogleService-Info.plist */,
 				609D6DEC2A8FEBF100DAEEF6 /* TootooApp.swift */,
 				609D6DF02A8FEBF100DAEEF6 /* Assets.xcassets */,
-				607F82A42A8FECEA00744911 /* GoogleService-Info.plist */,
 				60C633DE2A93D5EE00D9382A /* Extensions.swift */,
 			);
 			path = Other;
@@ -338,7 +338,7 @@
 			files = (
 				609D6DF52A8FEBF100DAEEF6 /* Preview Assets.xcassets in Resources */,
 				609D6DF12A8FEBF100DAEEF6 /* Assets.xcassets in Resources */,
-				607F82A52A8FECEA00744911 /* GoogleService-Info.plist in Resources */,
+				60979CA92A93E1C900D66C21 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
