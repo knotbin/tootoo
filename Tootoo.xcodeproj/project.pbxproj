@@ -120,13 +120,13 @@
 			isa = PBXGroup;
 			children = (
 				607F82852A8FEC6400744911 /* MainView.swift */,
+				607F82832A8FEC6400744911 /* ToDoListView.swift */,
+				607F827E2A8FEC6400744911 /* ProfileView.swift */,
 				607F827F2A8FEC6400744911 /* LoginView.swift */,
 				607F82842A8FEC6400744911 /* RegisterView.swift */,
-				607F827E2A8FEC6400744911 /* ProfileView.swift */,
 				607F82802A8FEC6400744911 /* NewItemView.swift */,
 				607F82812A8FEC6400744911 /* HeaderView.swift */,
 				607F82822A8FEC6400744911 /* ToDoItemView.swift */,
-				607F82832A8FEC6400744911 /* ToDoListView.swift */,
 				60A59A532A9197FF00019DF6 /* TLButton.swift */,
 			);
 			path = Views;
@@ -144,10 +144,10 @@
 		607F82892A8FEC6400744911 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				607F828A2A8FEC6400744911 /* ToDoItemViewViewModel.swift */,
+				607F828D2A8FEC6400744911 /* MainViewViewModel.swift */,
 				607F828B2A8FEC6400744911 /* ToDoListViewViewModel.swift */,
 				607F828C2A8FEC6400744911 /* ProfileViewViewModel.swift */,
-				607F828D2A8FEC6400744911 /* MainViewViewModel.swift */,
+				607F828A2A8FEC6400744911 /* ToDoItemViewViewModel.swift */,
 				607F828E2A8FEC6400744911 /* NewItemViewViewModel.swift */,
 				607F828F2A8FEC6400744911 /* RegisterViewViewModel.swift */,
 				607F82902A8FEC6400744911 /* LoginViewViewModel.swift */,
