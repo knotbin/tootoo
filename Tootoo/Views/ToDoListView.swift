@@ -24,9 +24,12 @@ struct ToDoListView: View {
             .navigationTitle("Tasks")
             .toolbar {
                 Button {
-                    
+                    viewModel.sheetIsShown = true
                 } label: {
                     Image(systemName: "plus.circle.fill")
+                }
+                .sheet(isPresented: $viewModel.sheetIsShown) {
+                    NewItemView(isPresented: $viewModel.sheetIsShown)
                 }
             }
             
