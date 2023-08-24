@@ -15,15 +15,16 @@ struct ToDoItemView: View {
             VStack(alignment: .leading) {
                 Text(item.title)
                     .bold()
-                Text("Due  \(Date(timeIntervalSince1970: item.dueDate).formatted(date: .abbreviated, time: .shortened))")
+                Text("Due \(Date(timeIntervalSince1970: item.dueDate).formatted(date: .abbreviated, time: .shortened))")
                     .foregroundColor(Color(.secondaryLabel))
             }
             Spacer()
             
             Button {
-                viewModel.toggleDone()
+                viewModel.toggleDone(item: item)
             } label: {
                 Image(systemName: item.isDone ? "checkmark.circle.fill" : "circle")
+                    .foregroundColor(Color.blue)
             }
         }
     }
